@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/user_info">
+
+    //This fragment is designed to incorporate the app logo, text fields for user name entry and
+    //Password entry, and also contains a cancel but which can be used by any Activity that makes use
+    //of this fragment.
+    <Button
+
+        style="@style/AppTheme.buttons"
+        android:text="@string/cancel_message"
+        android:id="@+id/cancel_button"
+        android:onClick="cancel_click"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/name"
+        android:ems="10"
+        android:id="@+id/editText_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="94dp"
+        android:layout_centerVertical="true"
+        android:background="#006699" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:text="@string/password"
+        android:ems="10"
+        android:id="@+id/editText_password"
+        android:background="#006699"
+        android:layout_below="@+id/editText_name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:name="com.fitness.health_inc.healthtrak.LogoFragment"
+        android:id="@+id/fragment2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        tools:layout="@layout/fragment_logo" />
+
+</RelativeLayout>

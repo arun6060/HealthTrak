@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.fitness.health_inc.healthtrak.Login">
+
+    //This is the first activity that the user will encounter when running the app
+    //and provides navigation to the New User and Login Activities
+    //it is also being design to add a new page feature and  search feature for future
+    //utilization.
+
+    <Button
+        style="@style/AppTheme.buttons"
+        android:text="@string/login_button"
+        android:id="@+id/log_in_button"
+        android:layout_gravity="center_vertical"
+        android:onClick="login_click" />
+
+    <Button
+
+        style="@style/AppTheme.buttons"
+        android:text="@string/new_user"
+        android:id="@+id/new_user_button"
+        android:layout_below="@+id/log_in_button"
+        android:onClick="new_user_click" />
+
+    <Button
+        style="@style/AppTheme.buttons"
+        android:text="@string/exit_message"
+        android:id="@+id/exit_button"
+        android:layout_below="@+id/new_user_button"
+        android:onClick="exit_click"/>
+
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:name="com.fitness.health_inc.healthtrak.LogoFragment"
+        android:id="@+id/fragment3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        tools:layout="@layout/fragment_logo" />
+
+
+</RelativeLayout>

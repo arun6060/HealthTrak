@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //Activity Strings
+    <string name="app_name">Health Trak</string>
+    <string name="login_button">Log In</string>
+    <string name="new_user">New User</string>
+    <string name="cancel_message">Cancel</string>
+    <string name="exit_message">Exit</string>
+    <string name="title_activity_login">Login</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="title_activity_new_user">NewUser</string>
+
+    //Fragment Strings
+    <string name="health_trak_logo">health_trak_logo</string>
+
+    //Menu Strings
+    <string name="action_login">Log In</string>
+    <string name="action_new_user">New User</string>
+    <string name="action_new">New</string>
+    <string name="action_search">Search</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

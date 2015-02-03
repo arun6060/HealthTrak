@@ -1,0 +1,32 @@
+<resources>
+
+    //This is the basic theme for the entire app It makes utilization of a parent theme
+    //but has modifications to the background color, text color, and text size
+    //this has been applied to the app through the manifest.
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">#000000</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    //This style is a sub class used for button layouts
+    <style name="AppTheme.buttons">
+        <item name="android:background">#c0c0c0</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    //This is a subclass of the AppThem used for displaying larger text
+    <style name="AppTheme.title_text">
+        <item name="android:textSize">40sp</item>
+    </style>
+</resources>

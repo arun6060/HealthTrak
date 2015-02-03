@@ -18,6 +18,6 @@ This fragment utilizes the onCreatView to inflate the xml file fragment_user_inf
             View view = inflater.inflate(R.layout.fragment_user_info, container, false);
             return view;
         }
-//Test
+//Test 2
 
 }

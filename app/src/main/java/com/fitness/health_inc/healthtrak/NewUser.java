@@ -61,6 +61,14 @@ public class NewUser extends ActionBarActivity {
 
     }
 
+    public void submit_click(View v){
+
+        Intent intent_submit_welcome_user = new Intent(getApplicationContext(),WelcomeUser.class);
+        startActivity(intent_submit_welcome_user);
+
+    }
+
+
 
 
 }

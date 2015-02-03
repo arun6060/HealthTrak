@@ -21,7 +21,7 @@
     <Button
 
         style="@style/AppTheme.buttons"
-        android:text="@string/new_user"
+        android:text="@string/new_user_button"
         android:id="@+id/new_user_button"
         android:layout_below="@+id/log_in_button"
         android:onClick="new_user_click" />

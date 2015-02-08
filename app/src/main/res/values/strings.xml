@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    //Activity Strings
+    <!--Activity Strings-->
+
     <string name="app_name">Health Trak</string>
     <string name="login_button">Log In</string>
     <string name="new_user_button">New User</string>
@@ -12,14 +13,53 @@
     <string name="password">Password</string>
     <string name="title_activity_new_user">New User</string>
     <string name="title_activity_welcome_user">Welcome User</string>
-    //Fragment Strings
+
+    <!--Fragment Strings-->
+
     <string name="health_trak_logo">health_trak_logo</string>
-    //Menu Strings
+
+    <!--Menu Strings-->
+
     <string name="action_login">Log In</string>
     <string name="action_new_user">New User</string>
     <string name="action_new">New</string>
     <string name="action_search">Search</string>
     <string name="action_settings">Settings</string>
 
+    <!--Navigation Drawer Strings-->
+
+    <!--Navigation Drawer Titles
+    These arrays are built to support xml coding, allowing for direct coding in the
+    xml layout instead of java class utilization-->
+
+    <array name="UserInputs">
+        <item>Enter Weight</item>
+        <item>Calories Eaten</item>
+        <item>Calories Burned</item>
+        <item>Blood Sugar</item>
+        <item>Mood</item>
+        <item>Stats</item>
+        <item>Home</item>
+    </array>
+
+    <!--Navigation Drawer Titles
+    These string arrays are the same as those used for the xml layout but are built to support
+    utilization in Java classes-->
+
+    <string name="title_section1">Enter Weight</string>
+    <string name="title_section2">Calories Eaten</string>
+    <string name="title_section3">Calories Burned</string>
+    <string name="title_section4">Blood Sugar</string>
+    <string name="title_section5">Mood</string>
+    <string name="title_section6">Stats</string>
+    <string name="title_section7">Home</string>
+
+    <!--These strings are used within the navigation drawer layouts-->
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+
+    <!--New String Auto Create Division-->
 
 </resources>

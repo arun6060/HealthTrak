@@ -3,7 +3,7 @@
     android:layout_height="match_parent"
     tools:context="com.fitness.health_inc.healthtrak.LogoFragment">
 
-    //This fragment is designed to make it easy to place the logo anywhere within the app
+    <!--This fragment is designed to make it easy to place the logo anywhere within the app-->
     <ImageView
         android:paddingRight="10dp"
         android:paddingLeft="10dp"

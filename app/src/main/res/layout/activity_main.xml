@@ -6,11 +6,13 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.fitness.health_inc.healthtrak.Login">
 
-    //This is the first activity that the user will encounter when running the app
-    //and provides navigation to the New User and Login Activities
-    //it is also being design to add a new page feature and  search feature for future
-    //utilization.
+    <!--This is the first activity that the user will encounter when running the app
+    and provides navigation to the New User and Login Activities
+    it is also being design to add a new page feature and  search feature for future
+    utilization. -->
 
+    <!-- This button allows the user to navigate to the Login activity and is made use of by the
+     Java class MainActivity-->
     <Button
         style="@style/AppTheme.buttons"
         android:text="@string/login_button"
@@ -18,6 +20,8 @@
         android:layout_gravity="center_vertical"
         android:onClick="login_click" />
 
+    <!-- This button allows the user to navigate to the New User activity and is made use of by the
+     Java class MainActivity-->
     <Button
 
         style="@style/AppTheme.buttons"
@@ -26,6 +30,7 @@
         android:layout_below="@+id/log_in_button"
         android:onClick="new_user_click" />
 
+    <!-- This button is used to exit the app and is made use of by the Java class MainActivity -->
     <Button
         style="@style/AppTheme.buttons"
         android:text="@string/exit_message"
@@ -33,6 +38,7 @@
         android:layout_below="@+id/new_user_button"
         android:onClick="exit_click"/>
 
+    <!-- This is the fragment_logo and is being usd to populate this layout with the app logo -->
     <fragment
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

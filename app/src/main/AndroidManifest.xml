@@ -28,10 +28,6 @@
             android:name=".WelcomeUser"
             android:label="@string/title_activity_welcome_user" >
         </activity>
-        <activity
-            android:name=".WelcomeUser"
-            android:label="@string/title_activity_welcome_user" >
-        </activity>
     </application>
 
 </manifest>

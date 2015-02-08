@@ -5,9 +5,13 @@
     android:layout_height="match_parent"
     android:id="@+id/user_info">
 
-    //This fragment is designed to incorporate the app logo, text fields for user name entry and
-    //password entry, and also contains a cancel but which can be used by any Activity that makes use
-    //of this fragment.
+    <!-- The purpose of this fragment is to provide a reusable fragment within the login and new user
+ activities by providing a reusable layout, it will also be incorporated into the various other
+ activities that ue text inputs.-->
+
+    <!--This fragment is designed to incorporate the app logo, text fields for user name entry and
+    password entry, and also contains a cancel but which can be used by any Activity that makes use
+    of this fragment.-->
 
     <fragment
         android:layout_width="wrap_content"
@@ -19,6 +23,7 @@
         tools:layout="@layout/fragment_logo" />
 
 
+    <!-- This text edit field is for the user to input his or her name -->
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -31,6 +36,7 @@
         android:layout_centerVertical="true"
         android:background="#006699" />
 
+    <!-- This text edit field is for the user to input his or her password -->
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -43,6 +49,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
+    <!-- This button allows for the user to submit information and is made use of by the
+     Java class Login and New User to access the WelcomeUser material.-->
     <Button
         style="@style/AppTheme.buttons"
         android:text="@string/submit_button"
@@ -51,6 +59,8 @@
         android:layout_above="@+id/cancel_button"
         android:layout_centerHorizontal="true" />
 
+    <!-- This button allows for the user to return to the home screen and is currently made us of
+    by the Java classes Login and New User -->
     <Button
         style="@style/AppTheme.buttons"
         android:text="@string/cancel_button"

@@ -3,12 +3,12 @@
     android:layout_height="match_parent"
     tools:context="com.fitness.health_inc.healthtrak.NewUser">
 
-    //This activity is used for the creation of a new user, eventually will be constructed to store
-    //user information.
+    <!--This activity is used for the creation of a new user, eventually will be constructed to store
+    user information.-->
 
 
-    //This is the user info fragment utilized within this activity to allow the user
-    //to input name and password information.
+    <!--This is the user info fragment utilized within this activity to allow the user
+    to input name and password information.-->
     <fragment
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
